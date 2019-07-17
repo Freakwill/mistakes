@@ -1,2 +1,2 @@
-# mistakes
-Mistakes I made in programming, esp. Python
+# mistakes 
+Mistakes :shit: I made in programming, esp. Python
