@@ -62,7 +62,21 @@
 
 *对包的载入机制还有盲点*
 
+### standard libs
 
+下述程序会多次执行`print('wtf')`
+
+```python
+print('wtf')
+if __name__ == "__main__":
+
+    from multiprocessing import Process, Manager
+
+    manager = Manager()
+    results = manager.dict()
+    ...
+    # start and join
+```
 
 ### 3rd part libs
 
