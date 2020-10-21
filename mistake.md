@@ -69,7 +69,7 @@
 ```python
 print('wtf')
 if __name__ == "__main__":
-
+    # set_start_method('fork') 增加这行才能正常运行
     from multiprocessing import Process, Manager
 
     manager = Manager()
